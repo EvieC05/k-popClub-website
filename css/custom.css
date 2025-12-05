@@ -336,7 +336,7 @@ color: var(--light-purple);
 
 .dark-bg-wrapper a.button {
   border: 2px solid var(--light-purple);
-  color: var(--);
+  color: var(--light-purple);
 } 
 
 
