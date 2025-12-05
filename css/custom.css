@@ -286,7 +286,7 @@ footer img {
 footer hr {
   margin: 10px 0 20px;
   border: none;
-  border-bottom: 1.5px solid var(--primary-25);
+  border-bottom: 1.5px solid var(--);
 }
 
 footer a, footer p {
