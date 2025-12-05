@@ -36,6 +36,7 @@ Experiment with colors, typography, spacing, and component styles.
   --grey: #EBEFF4;
   --white: #fff;
   --light-yellow:#FFF3DB;
+  --lightly-purple:#F6F1FF;
   
   /* You can add more custom colors here */
 
@@ -98,6 +99,8 @@ p {
   /* Try adjusting: line-height, letter-spacing, margin-bottom */
 }
 
+
+
 img + h4,
 picture + p {
   margin-top: var(--spacing8x2);
@@ -126,7 +129,7 @@ section div+div {
 /* Basic Link Styles */
 a {
   text-decoration: none;
-  color: var(--primary-80);
+  color: var(--primary-100);
   transition: all 300ms;
   /* Try adding: border-bottom, font-weight changes, etc. */
 }
@@ -170,7 +173,7 @@ a.button-highlight {
 
 
 /* Header styles */
-header img {
+header img { 
   width: 160px;
   /* Try adjusting: width, border-radius for logo styling */
 }
@@ -195,7 +198,19 @@ header nav a.active {
 
 /* Hero section */
 #hero-image {
-  background: var(--primary-100) no-repeat center center/cover;
+  background: url('../img/hero-image.jpg') no-repeat center center/cover;
+  height: 95vh;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: var(--spacing8x3);
+
+}
+
+#event-image {
+  background: url('../img/event-image.jpg') no-repeat center center/cover;
   height: 95vh;
   margin: 0;
   display: flex;
@@ -207,13 +222,13 @@ header nav a.active {
 
 #hero-image h1 {
   text-align: center;
-  color: var(--yellow);
+  color: var(--light-purple);
   margin: 0; 
 
 }
 
 #hero-image p {
-  color: var(--white);
+  color: var(--primary-100);
   margin: 0; 
 }
 
@@ -268,6 +283,8 @@ header nav a.active {
 section p + a.button {
   margin-top: var(--spacing8x12);
 }
+
+
 
 
 /* Footer Styles */
@@ -349,11 +366,11 @@ hr {
 
 /* Icon with Text Component */
 .icon-with-text i {
-  background: var(--light-purple);
+  background: var(--primary-100);
   padding: 17px 16px 23px;
   border-radius: 200px;
   font-size: 30px;
-  color: var(--primary-80);
+  color: var(--light-purple);
   /* Try customizing: colors, sizing, border-radius, box-shadow */
 }
 

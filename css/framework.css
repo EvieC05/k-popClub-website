@@ -311,7 +311,7 @@ img {
 /* Card section */
 
 section .card {
-  background: var(--grey);
+  background: #F6F1FF;
   border-radius: var(--spacing8x2);
   padding: var(--spacing8x5);
 }
